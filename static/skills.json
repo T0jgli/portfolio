@@ -1,0 +1,74 @@
+{
+    "skills": [
+        {
+            "img": "python.png",
+            "name": "Python",
+            "number": "95%"
+        },
+        {
+            "img": "linux.png",
+            "name": "Linux",
+            "number": "85%"
+        },
+        {
+            "img": "javascript.png",
+            "name": "Javascript",
+            "number": "90%"
+        },
+        {
+            "img": "css.png",
+            "name": "CSS",
+            "number": "90%"
+        },
+        {
+            "img": "react.png",
+            "name": "React",
+            "number": "90%"
+        },
+        {
+            "img": "next.png",
+            "name": "Next.JS",
+            "number": "90%"
+        },
+        {
+            "img": "git.jpg",
+            "name": "Git",
+            "number": "85%"
+        },
+        {
+            "img": "ansible.png",
+            "name": "Ansible",
+            "number": "75%"
+        },
+        {
+            "img": "postgresql.png",
+            "name": "PostgreSQL",
+            "number": "80%"
+        },
+        {
+            "img": "docker.png",
+            "name": "Docker",
+            "number": "85%"
+        },
+        {
+            "img": "kubernetes.png",
+            "name": "Kubernetes",
+            "number": "55%"
+        },
+        {
+            "img": "firebase.png",
+            "name": "Firebase",
+            "number": "60%"
+        },
+        {
+            "img": "aws.png",
+            "name": "AWS",
+            "number": "50%"
+        },
+        {
+            "img": "azure.png",
+            "name": "Azure",
+            "number": "50%"
+        }
+    ]
+}
