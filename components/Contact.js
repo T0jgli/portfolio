@@ -37,9 +37,10 @@ const Contact = () => {
             success: "Successfully sent the message",
             error: {
                 render({ data }) {
-                    if (data?.includes("error")) {
+                    console.log(data);
+                    try {
                         return data["errors"]["msg"];
-                    } else {
+                    } catch (error) {
                         return "An error happened, see on console";
                     }
                 },
