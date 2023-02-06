@@ -26,8 +26,6 @@ export async function sendMail(data) {
         </body>
         </html> `,
     };
-    console.log(mail);
-
     transporter.verify((error) => {
         if (error) {
             console.log(error);

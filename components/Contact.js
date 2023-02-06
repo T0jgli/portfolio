@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { toast } from "react-toastify";
 
 const Contact = () => {
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit, reset } = useForm();
 
     async function emailSend(data) {
         return new Promise(async (resolve, reject) => {
@@ -25,6 +25,8 @@ const Contact = () => {
             } catch (error) {
                 console.log(error);
                 reject(error.toString());
+            } finally {
+                reset();
             }
         });
     }
@@ -35,7 +37,7 @@ const Contact = () => {
             success: "Successfully sent the message",
             error: {
                 render({ data }) {
-                    if ("errors" in data) {
+                    if (data?.includes("error")) {
                         return data["errors"]["msg"];
                     } else {
                         return "An error happened, see on console";
