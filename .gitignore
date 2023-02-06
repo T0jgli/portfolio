@@ -35,5 +35,5 @@ yarn-error.log*
 
 firebase.js
 node_modules
-.env
+.env*
 .firebase

@@ -16,13 +16,15 @@ const transporter = createTransport(transport);
 export async function sendMail(data) {
     const { subject, name, email, message } = data;
     const mail = {
-        from: `"WEB – kvlk.hu" "${email}"`,
+        from: `"CONTACT - kvlk.hu" "${email}"`,
         to: "kovalikadam00@gmail.com",
         subject: subject,
         replyTo: email,
         html: ` <html><body>
-        ${name} <br/>
-        ${message}
+        <span style="color: gray">${name}</span> 
+        <br/>
+        <br/>
+        ${message?.replaceAll("\n", "<br/>")}
         </body>
         </html> `,
     };
