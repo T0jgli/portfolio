@@ -20,12 +20,7 @@ app.use(cors({ origin: process.env.ORIGIN.trim().split(",") }));
 app.use(express.json());
 
 const validateBody = validateMiddleware(
-    [
-        body("name").trim().isLength({ min: 1, max: 255 }).escape(),
-        body("email").trim().isEmail().escape().normalizeEmail(),
-        body("message").trim().isLength({ min: 1, max: 5000 }).escape(),
-        body("subject").trim().isLength({ min: 1, max: 255 }).escape(),
-    ],
+    [body("name").trim().escape(), body("email").trim().isEmail().escape().normalizeEmail(), body("message").trim().escape(), body("subject").trim().escape()],
     validationResult
 );
 
