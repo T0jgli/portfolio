@@ -10,7 +10,10 @@ class MyDocument extends Document {
                 <meta name="copyright" content="2022 © Adam Kovalik" />
                 <meta name="country" content="Hungary" />
                 <meta name="robots" content="index, follow" />
-                <meta name="keywords" content="system Administrator, it, programmer, adam kovalik, kovalik, tojgli, tojglee, linux" />
+                <meta
+                    name="keywords"
+                    content="system Administrator, it, programmer, adam kovalik, kovalik, tojgli, tojglee, linux, devops, evosoft, it support"
+                />
                 <meta name="content-language" content="en" />
                 {/* <meta property="og:description" content="Kalandozas.hu - Utazás, nyaralas, kirándulás, Görögország, Spanyolország, Olaszország" />
                 <meta property="og:site_name" content="Kalandozás Utazási iroda" />
@@ -25,7 +28,7 @@ class MyDocument extends Document {
                 {/* <meta name="robots" content="noindex, nofollow" /> */}
                 <link rel="apple-touch-icon" href="/favicon.ico" />
                 <link rel="icon" type="image/png" href="/favicon.ico" />
-                <title>kvlk.hu</title>
+                <title>Adam Kovalik</title>
                 <body>
                     <Main />
                     <NextScript />

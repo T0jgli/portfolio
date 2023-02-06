@@ -77,8 +77,10 @@ const Header = () => {
                     }}
                     className="flexbox text-gray-300 cursor-pointer"
                 >
-                    <SocialIcon className="cursor-pointer duration-500 hover:opacity-70" network="email" fgColor="gray" bgColor="transparent" />
-                    <p className="uppercase hidden md:inline-flex text-sm text-gray-300 duration-500 hover:opacity-70">Get In Touch</p>
+                    <div className="flex items-center hover:opacity-70 duration-500">
+                        <SocialIcon className="cursor-pointer" network="email" fgColor="gray" bgColor="transparent" />
+                        <p className="uppercase hidden md:inline-flex text-sm text-gray-300">Get In Touch</p>
+                    </div>
                 </motion.div>
             </div>
         </header>

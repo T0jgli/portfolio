@@ -9,7 +9,7 @@
 
     .herobutton {
         @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest 
-        text-gray-500 transition-all hover:border-[#2A6230] hover:text-[#2A6230] duration-200 ease-in-out;
+        text-gray-500 transition-all hover:border-secondary hover:text-secondary duration-200 ease-in-out;
     }
 
     .headerbg {
@@ -18,56 +18,29 @@
     }
 
     .base {
-        @apply bg-[rgb(36,36,36)] space-y-32 
+        @apply bg-[rgb(29,29,29)] space-y-32 
         text-white h-screen snap-y overflow-y-scroll overflow-x-hidden z-0 md:scrollbar 
-        md:scrollbar-track-gray-400/20 md:scrollbar-thumb-[#2A6230]/80;
+        md:scrollbar-track-gray-500/20 md:scrollbar-thumb-secondary/80;
     }
 
     .contactinput {
         @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-300 
-        placeholder-gray-500 transition-all focus:border-[#2A6230]/40 hover:border-[#2A6230];
+        placeholder-gray-500 transition-all focus:border-secondary/40 hover:border-secondary;
     }
 }
 
 body {
     overflow-x: hidden;
 }
-.container {
-    font-family: sans-serif;
-}
-
-.card-container {
-    width: 3rem;
-    height: 3rem;
-    position: relative;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-.card {
-    overflow: hidden;
-    padding: 2rem;
-    border-radius: 1rem;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    position: relative;
-    cursor: pointer;
-}
-
 .expanded {
-    width: 20rem;
-    height: 20rem;
+    width: 10rem;
+    height: 10rem;
     position: relative;
-    left: -100%;
     top: 150%;
+    left: -50%;
 }
 
-.compact {
-    width: 5rem;
-    height: 5rem;
-    padding: 0.5rem;
-    border-radius: 1.5rem;
+.secondary {
+    height: 4rem;
+    width: 8rem;
 }

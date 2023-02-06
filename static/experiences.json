@@ -7,13 +7,13 @@
             "dates": "2022 september -",
             "tasks": [
                 "Ubuntu, CentOS, monitoring, log collecting, installations",
-                "Linux automatization with Ansible",
+                "Linux automatization with Ansible and Python",
                 "2nd Level Support",
-                "introducing the containerization technology",
+                "Introducing the containerization technology",
                 "Database operations",
                 "Developing Gitlab CI/CD"
             ],
-            "skills": ["python.png", "linux.png", "ansible.png", "postgresql.png", "docker.png", "kubernetes.png", "git.jpg"]
+            "skills": ["python.png", "react.png", "linux.png", "ansible.png", "postgresql.png", "docker.png", "kubernetes.png", "git.jpg"]
         },
         {
             "company": "evosoft Hungary",
@@ -28,7 +28,7 @@
             "img": "graphisoft.jpg",
             "role": "Software Developer Trainee",
             "dates": "2021 january - 2021 april",
-            "tasks": ["Developing custom JavaScript cloud application"],
+            "tasks": ["Developing an enterprise JavaScript cloud application"],
             "skills": ["javascript.png", "css.png", "react.png"]
         }
     ]

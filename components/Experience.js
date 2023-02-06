@@ -18,7 +18,7 @@ const Experience = () => {
                 horizontal
                 hideScrollbars={false}
                 draggingClassName="cursor-grabbing"
-                className="w-full flex space-x-5 p-10 scrollbar-thin md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#2A6230]/80 cursor-grab"
+                className="w-full flex space-x-5 p-10 scrollbar-thin md:scrollbar scrollbar-track-gray-500/20 scrollbar-thumb-secondary/80 cursor-grab"
             >
                 {experiencesJson.experiences.map((e, i) => (
                     <ExperienceCard role={e.role} skills={e.skills} company={e.company} key={e.company + i} img={e.img} tasks={e.tasks} dates={e.dates} />

@@ -6,7 +6,7 @@ const ExperienceCard = ({ role, company, tasks, dates, img, skills }) => {
         <article
             className="flex hover:opacity-100 
         opacity-70 transition-opacity duration-200 
-        overflow-hidden flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10"
+        overflow-hidden flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#242424] p-10"
         >
             <motion.img
                 initial={{

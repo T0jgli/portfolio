@@ -18,7 +18,7 @@ function Notfound() {
                     404 page not found
                 </motion.h1>
 
-                <Link href="/">
+                <Link href="/" legacyBehavior>
                     <button className="herobutton flex flex-row space-x-2 items-center z-20 justify-center">
                         <HiChevronLeft />
                         <span>Go back</span>

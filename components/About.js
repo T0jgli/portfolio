@@ -21,10 +21,9 @@ const About = () => {
                     x: 0,
                 }}
                 transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
-                viewport={{ once: true }}
                 className="md:mb-0 mb-10 flex-shrink-0 w-48 h-48 rounded-full object-cover xl:w-[250px] xl:h-[250px] mx-auto"
                 src="/imgs/ulok_pici.jpg"
-                alt=""
+                alt="me sitting"
             />
             <div className="px-2 md:px-10 space-y-4">
                 <p className="text-base text-center max-w-3xl">
