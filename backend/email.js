@@ -3,9 +3,8 @@ import { createTransport } from "nodemailer";
 
 dotenv.config();
 const transport = {
-    host: "mortalsoul.23net.hu",
-    port: 2525,
-    secure: false,
+    service: 'gmail',
+    host: 'smtp.gmail.com',
     auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASSWORD,
@@ -16,7 +15,7 @@ const transporter = createTransport(transport);
 export async function sendMail(data) {
     const { subject, name, email, message } = data;
     const mail = {
-        from: `"CONTACT - kvlk.hu" "${email}"`,
+        from: `"CONTACT - kvlk.hu" "kovalik.smtp@gmail.com"`,
         to: "kovalikadam00@gmail.com",
         subject: subject,
         replyTo: email,
