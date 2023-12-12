@@ -33,7 +33,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-firebase.js
 node_modules
 .env*
 .firebase
