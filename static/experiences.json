@@ -7,14 +7,24 @@
             "dates": "2022 september -",
             "tasks": [
                 "Ubuntu, CentOS, monitoring, log collecting, installations",
-                "Linux automatization with Ansible and Python",
-                "Maintaining on-premise Kubernetes Cluster",
+                "Linux automation with Ansible and Python",
+                "Maintaining on-premise Kubernetes and Docker Swarm Clusters",
                 "2nd Level Support",
-                "Introducing the containerization technology",
-                "Database operations",
+                "Introducing AWS and cloud native technologies using Terraform and GitOps",
                 "Developing Gitlab CI/CD"
             ],
-            "skills": ["python.png", "react.png", "linux.png", "ansible.png", "postgresql.png", "docker.png", "kubernetes.png", "git.jpg"]
+            "skills": [
+                "python.png",
+                "react.png",
+                "linux.png",
+                "ansible.png",
+                "docker.png",
+                "kubernetes.png",
+                "grafana.png",
+                "git.jpg",
+                "aws.png",
+                "terraform.png"
+            ]
         },
         {
             "company": "evosoft Hungary",

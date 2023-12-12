@@ -4,9 +4,19 @@ import { motion } from "framer-motion";
 const ExperienceCard = ({ role, company, tasks, dates, img, skills }) => {
     return (
         <article
+            onMouseMove={(e) => {
+                for (const card of document.getElementsByClassName("card")) {
+                    const rect = card.getBoundingClientRect(),
+                        x = e.clientX - rect.left,
+                        y = e.clientY - rect.top;
+
+                    card.style.setProperty("--mouse-x", `${x}px`);
+                    card.style.setProperty("--mouse-y", `${y}px`);
+                }
+            }}
             className="flex hover:opacity-100 
-        opacity-70 transition-opacity duration-200 
-        overflow-hidden flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#242424] p-10"
+        opacity-80 transition-opacity duration-500 
+        overflow-hidden relative flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#222222] p-10 card"
         >
             <motion.img
                 initial={{
@@ -30,7 +40,12 @@ const ExperienceCard = ({ role, company, tasks, dates, img, skills }) => {
                 <p className="font-bold text-xl md:text-2xl mt-2">{role}</p>
                 <div className="flex flex-wrap items-center gap-2 my-3">
                     {skills.map((s, i) => (
-                        <img alt={"Experience img " + i} className="md:h-10 md:w-10 w-8 h-8 rounded-full object-cover" key={s + i} src={`/imgs/skills/${s}`} />
+                        <img
+                            alt={"Experience img " + i}
+                            className="md:h-10 md:w-10 w-8 h-8 rounded-full object-cover"
+                            key={s + i}
+                            src={`/imgs/skills/${s}`}
+                        />
                     ))}
                 </div>
                 <p className="uppercase md:text-base text-sm py-5 text-gray-300">{dates}</p>

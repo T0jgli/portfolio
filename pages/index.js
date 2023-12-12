@@ -10,6 +10,7 @@ import Skills from "../components/Skills";
 import { analytics } from "../lib/firebase";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Certificates from "../components/Certficates";
 
 export default function Home() {
     useEffect(() => {}, []);
@@ -46,6 +47,10 @@ export default function Home() {
 
                 <section id="skills" className="snap-start">
                     <Skills />
+                </section>
+
+                <section id="certificates" className="snap-start">
+                    <Certificates />
                 </section>
 
                 <section id="contact" className="snap-end">

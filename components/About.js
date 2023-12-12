@@ -27,13 +27,19 @@ const About = () => {
             />
             <div className="px-2 md:px-10 space-y-4">
                 <p className="text-base text-center max-w-3xl">
-                    I&apos;m Adam Kovalik. My personal goal is to learn the newest cloud and containerization technologies. I have some hobby and open source
-                    web projects. Currently working at evosoft, trying to master Linux operating system and DevOps culture. Besides I am studying Business
-                    Informatics at Budapest Business School.
+                    I am a highly motivated professional with a passion for continuous learning and innovation. My current objectives revolve around
+                    mastering cloud technologies such as AWS, Kubernetes, and microservices architecture. I am committed to staying at the forefront
+                    of industry trends and best practices. Through hands-on experience and dedicated study, ultimately enhancing my ability to design
+                    and implement robust and scalable solutions. Currently studying Business Informatics at Budapest Business School.
                 </p>
                 <p className="text-gray-200 text-center max-w-3xl">
                     Feel free to check my{" "}
-                    <a href="https://github.com/T0jgli" target="_blank" rel="noopener noreferrer" className="text-gray-300 duration-500 hover:opacity-70">
+                    <a
+                        href="https://github.com/T0jgli"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-300 duration-500 hover:opacity-70"
+                    >
                         GitHub
                     </a>{" "}
                     profile.

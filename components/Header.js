@@ -44,16 +44,6 @@ const Header = () => {
                         aria-label="LinkedIn"
                         title="LinkedIn"
                     />
-                    <SocialIcon
-                        className="cursor-pointer duration-500 hover:opacity-70"
-                        url="https://twitter.com/kovalikadam"
-                        rel="noopener norefereer"
-                        target="_blank"
-                        fgColor="gray"
-                        bgColor="transparent"
-                        aria-label="Twitter"
-                        title="Twitter"
-                    />
                 </motion.div>
                 <motion.div
                     onClick={() => {

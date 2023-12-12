@@ -48,12 +48,17 @@
         {
             "img": "docker.png",
             "name": "Docker",
-            "number": "85%"
+            "number": "90%"
         },
         {
             "img": "kubernetes.png",
             "name": "Kubernetes",
-            "number": "60%"
+            "number": "75%"
+        },
+        {
+            "img": "argo.jpg",
+            "name": "Argo CD",
+            "number": "55%"
         },
         {
             "img": "firebase.png",
@@ -63,12 +68,12 @@
         {
             "img": "aws.png",
             "name": "AWS",
-            "number": "50%"
+            "number": "65%"
         },
         {
-            "img": "azure.png",
-            "name": "Azure",
-            "number": "50%"
+            "img": "terraform.png",
+            "name": "Terraform",
+            "number": "65%"
         }
     ]
 }

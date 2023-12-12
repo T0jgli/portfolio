@@ -15,7 +15,7 @@ const transporter = createTransport(transport);
 export async function sendMail(data) {
     const { subject, name, email, message } = data;
     const mail = {
-        from: `"CONTACT - kvlk.hu" "kovalikadam00@gmail.com"`,
+        from: `"CONTACT - kvlk.hu" "portfolio@kvlk.hu"`,
         to: "kovalikadam00@gmail.com",
         subject: subject,
         replyTo: email,
