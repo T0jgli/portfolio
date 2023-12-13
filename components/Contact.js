@@ -4,24 +4,46 @@ import { HiMail, HiChevronUp } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { toast } from "react-toastify";
 
+function wait(delay) {
+    return new Promise((resolve) => setTimeout(resolve, delay));
+}
+
+const fetchPlus = (url, options = {}, retries) =>
+    fetch(url, options)
+        .then((res) => {
+            if (res.ok) {
+                return res;
+            }
+            if (retries > 0) {
+                return wait(2000).then(() => fetchPlus(url, options, retries - 1), 1000);
+            }
+            return res;
+        })
+        .catch((error) => console.error(error));
+
 const Contact = () => {
     const { register, handleSubmit, reset } = useForm();
 
     async function emailSend(data) {
         return new Promise(async (resolve, reject) => {
             try {
-                const response = await fetch(process.env.NEXT_PUBLIC_BACKEND_URL, {
-                    method: "POST",
-                    body: JSON.stringify(data),
-                    headers: {
-                        "content-type": "application/json",
+                const response = await fetchPlus(
+                    process.env.NEXT_PUBLIC_BACKEND_URL,
+                    {
+                        method: "POST",
+                        body: JSON.stringify(data),
+                        headers: {
+                            "content-type": "application/json",
+                        },
                     },
-                });
-                const json = response.json();
+                    2
+                );
+                const json = await response.json();
                 if (response.status !== 200) {
                     reject(json);
+                } else {
+                    resolve(json);
                 }
-                resolve(json);
             } catch (error) {
                 console.log(error);
                 reject(error.toString());
@@ -39,7 +61,7 @@ const Contact = () => {
                 render({ data }) {
                     console.log(data);
                     try {
-                        return data["errors"]["msg"];
+                        return data["error"];
                     } catch (error) {
                         return "An error happened, see on console";
                     }
