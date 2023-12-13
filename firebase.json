@@ -1,16 +1,23 @@
 {
-  "hosting": {
-    "public": "out",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  }
+    "hosting": {
+        "public": "out",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+        "redirects": [
+            {
+                "source": "/email",
+                "destination": "https://6o22y4nyqvejnxiwuyo4eo2iou0imayc.lambda-url.eu-central-1.on.aws/",
+                "type": 301
+            }
+        ],
+        "rewrites": [
+            {
+                "source": "!/email",
+                "destination": "/index.html"
+            },
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    }
 }

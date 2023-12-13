@@ -7,7 +7,6 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Skill from "../components/Skill";
 import Skills from "../components/Skills";
-import { analytics } from "../lib/firebase";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Certificates from "../components/Certficates";
