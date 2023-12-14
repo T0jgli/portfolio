@@ -6,10 +6,9 @@
             "role": "System Administrator",
             "dates": "2022 september -",
             "tasks": [
-                "Ubuntu, CentOS, monitoring, log collecting, installations",
-                "Linux automation with Ansible and Python",
+                "Ubuntu server operations",
+                "Automation using Ansible and Python",
                 "Maintaining on-premise Kubernetes and Docker Swarm Clusters",
-                "2nd Level Support",
                 "Introducing AWS and cloud native technologies using Terraform and GitOps",
                 "Developing Gitlab CI/CD"
             ],
