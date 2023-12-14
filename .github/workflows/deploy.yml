@@ -22,4 +22,4 @@ jobs:
               uses: appleboy/lambda-action@v0.1.9
               with:
                   function_name: kvlk-email
-                  source: lambda/lambda_function.js
+                  source: lambda/lambda_function.py
