@@ -59,7 +59,7 @@ const Skill = ({ img, number, name }) => {
                     <div className="w-4/5 relative h-1.5 bg-gray-500 shadow-xl rounded-lg shadow-black">
                         <div className="bg-emerald-500 absolute top-0 h-1.5 rounded-lg" style={{ width: number }} />
                     </div>
-                    <p className="text-xs font-medium text-black opacity-100">{name}</p>
+                    <p className="text-xs text-center font-medium text-black opacity-100">{name}</p>
                 </div>
             </div>
         </div>
