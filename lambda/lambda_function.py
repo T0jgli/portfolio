@@ -5,7 +5,6 @@ import re
 
 def validate_request(body):
     # Implement your validation logic here
-    # Example:
     if not body.get("name") or not body.get("email") or not body.get("message") or not body.get("subject"):
         raise ValueError("Invalid request body")
 
@@ -15,7 +14,6 @@ def validate_request(body):
     return [html.escape(body.get("name")), html.escape(body.get("email")), html.escape(body.get("message")).replace("\n", "<br>"), html.escape(body.get("subject"))]
 
 def lambda_handler(event, context):
-    # Determine the HTTP method of the request
     print(event)
     http_method = ""
     if "httpMethod" in event:
@@ -51,7 +49,6 @@ def lambda_handler(event, context):
                 }
             )
 
-            # Add the received data to the example data
             response = {
                 "statusCode": 200,
                 "body": json.dumps({"success": True})
