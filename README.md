@@ -8,7 +8,7 @@
 -   Framer-Motion
 -   Other small packages
 
-### ✨ [Live -](https://kvlk.hu/)
+### ✨ [Live - kvlk.hu](https://kvlk.hu/)
 
 <br>
 
