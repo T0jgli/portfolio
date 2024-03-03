@@ -48,7 +48,7 @@ export default function Home() {
                     <Skills />
                 </section>
 
-                <section id="certificates" className="snap-start">
+                <section id="certifications" className="snap-start">
                     <Certificates />
                 </section>
 

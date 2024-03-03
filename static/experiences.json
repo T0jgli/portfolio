@@ -9,7 +9,7 @@
                 "Ubuntu server operations",
                 "Automation using Ansible and Python",
                 "Maintaining on-premise Kubernetes and Docker Swarm Clusters",
-                "Introducing AWS and cloud native technologies using Terraform and GitOps",
+                "Architecting AWS and cloud native technologies using Terraform and GitOps",
                 "Developing Gitlab CI/CD"
             ],
             "skills": [

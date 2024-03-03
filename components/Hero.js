@@ -48,8 +48,8 @@ const Hero = () => {
                     <button className="herobutton" onClick={() => click("skills")}>
                         Skills
                     </button>
-                    <button className="hidden herobutton" onClick={() => click("certificates")}>
-                        Certificates
+                    <button className="herobutton" onClick={() => click("certifications")}>
+                        Certifications
                     </button>
                 </div>
             </div>
