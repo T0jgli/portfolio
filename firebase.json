@@ -1,16 +1,28 @@
 {
-  "hosting": {
-    "public": "out",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  }
+    "hosting": {
+        "public": "out",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+        "headers": [
+            {
+                "source": "**",
+                "headers": [
+                    { "key": "Access-Control-Allow-Origin", "value": "*" },
+                    { "key": "X-Frame-Options", "value": "deny" },
+                    { "key": "X-Content-Type-Options", "value": "nosniff" },
+                    { "key": "X-XSS-Protection", "value": "1; mode=block" },
+                    { "key": "Referrer-Policy", "value": "no-referrer, strict-origin-when-cross-originy" },
+                    {
+                        "key": "Permissions-Policy",
+                        "value": "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()"
+                    }
+                ]
+            }
+        ],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    }
 }
