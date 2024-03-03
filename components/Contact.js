@@ -78,11 +78,11 @@ const Contact = () => {
                 transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
                 className="h-screen flex relative overflow-hidden flex-col text-left max-w-full px-10 justify-evenly mx-auto items-center pt-24"
             >
-                <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl">Contact</h3>
+                <h3 className="uppercase tracking-[1rem] text-gray-500 xl:text-2xl md:text-xl text-lg">Contact</h3>
 
                 <div className="flex space-x-5 items-center justify-center">
                     <HiMail className="text-secondary h-7 w-7 animate-pulse" />
-                    <p className="text-2xl text-gray-200">kovalik@kvlk.hu</p>
+                    <p className="text-xl lg:text-2xl text-gray-200">kovalik@kvlk.hu</p>
                 </div>
                 <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto">
                     <div className="flex md:flex-row flex-col space-y-2 md:space-y-0 md:space-x-2">

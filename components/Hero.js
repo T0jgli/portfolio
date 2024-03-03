@@ -38,7 +38,7 @@ const Hero = () => {
                 >
                     Hi! The Name&apos;s Adam Kovalik
                 </motion.h1>
-                <div className="pt-7 flex space-x-2 justify-center">
+                <div className="pt-7 flex flex-wrap space-x-2 justify-center">
                     <button className="herobutton" onClick={() => click("about")}>
                         About
                     </button>

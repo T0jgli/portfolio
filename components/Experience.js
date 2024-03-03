@@ -12,7 +12,7 @@ const Experience = () => {
             transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
             className="min-h-screen flex relative overflow-hidden flex-col text-left max-w-full px-10 justify-evenly mx-auto items-center pt-24"
         >
-            <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl">Experience</h3>
+            <h3 className="uppercase tracking-[1rem] text-gray-500 xl:text-2xl md:text-xl text-lg">Experience</h3>
 
             <ScrollContainer
                 horizontal

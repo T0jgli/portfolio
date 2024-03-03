@@ -14,7 +14,7 @@ const Certificates = () => {
                 transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
                 className="min-h-screen flex relative overflow-hidden flex-col px-10 text-left max-w-full justify-evenly mx-auto items-center pt-24"
             >
-                <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl">Certifications</h3>
+                <h3 className="uppercase tracking-[1rem] text-gray-500 xl:text-2xl md:text-xl text-lg">Certifications</h3>
                 <div className="flex space-x-6">
                     <a
                         aria-label="AWS Certified Cloud Practitioner"
