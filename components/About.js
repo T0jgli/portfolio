@@ -30,7 +30,7 @@ const About = () => {
                     I am a highly motivated professional with a passion for continuous learning and innovation. My current objectives revolve around
                     mastering cloud technologies such as AWS, Kubernetes, and microservices architecture. I am committed to staying at the forefront
                     of industry trends and best practices. Through hands-on experience and dedicated study, ultimately enhancing my ability to design
-                    and implement robust and scalable solutions. Currently studying Business Informatics at Budapest Business School.
+                    and implement robust and scalable solutions.
                 </p>
                 <p className="text-gray-200 text-center max-w-3xl">
                     Feel free to check my{" "}

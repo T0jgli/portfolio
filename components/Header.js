@@ -68,7 +68,14 @@ const Header = () => {
                     className="flexbox text-gray-300 cursor-pointer"
                 >
                     <div className="flex items-center hover:opacity-70 duration-500">
-                        <SocialIcon className="cursor-pointer" network="email" fgColor="gray" bgColor="transparent" />
+                        <SocialIcon
+                            as="button"
+                            aria-label="Contact link"
+                            className="cursor-pointer"
+                            network="email"
+                            fgColor="gray"
+                            bgColor="transparent"
+                        />
                         <p className="uppercase hidden md:inline-flex text-sm text-gray-300">Get In Touch</p>
                     </div>
                 </motion.div>

@@ -106,6 +106,7 @@ const Contact = () => {
                         behavior: "smooth",
                     });
                 }}
+                aria-label="Scroll up"
                 className="sticky botton-5 w-full cursor-pointer snap-end"
             >
                 <div className="flex items-center justify-center">
