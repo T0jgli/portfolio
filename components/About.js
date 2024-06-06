@@ -39,9 +39,9 @@ const About = () => {
                         rel="noopener noreferrer"
                         className="text-gray-300 duration-500 hover:opacity-70"
                     >
-                        GitHub
-                    </a>{" "}
-                    profile.
+                        GitHub profile
+                    </a>
+                    .
                 </p>
             </div>
         </motion.div>
