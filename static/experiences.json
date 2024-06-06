@@ -8,7 +8,7 @@
             "tasks": [
                 "Ubuntu server operations",
                 "Automation using Ansible and Python",
-                "Maintaining on-premise Kubernetes and Docker Swarm Clusters",
+                "Maintaining on-premise Kubernetes Clusters (k3s, k8s)",
                 "Architecting AWS and cloud native technologies using Terraform and GitOps",
                 "Developing Gitlab CI/CD"
             ],
