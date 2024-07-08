@@ -27,9 +27,9 @@ const About = () => {
             /> */}
             <div className="px-2 md:px-10 space-y-4">
                 <p className="text-base text-center max-w-3xl">
-                    I am a highly motivated professional with a passion for continuous learning and innovation. My current objectives is to master
-                    cloud technologies such as AWS, Kubernetes, and microservice architecture. I have got a bachelor degree in Business Informatics
-                    from Budapest Business School.
+                    I am a highly motivated professional with a passion for continuous learning and innovation. My current objectives are to master
+                    cloud native technologies such as AWS, Kubernetes, and microservice architecture. I have got a bachelor degree in Business
+                    Informatics from Budapest Business School.
                 </p>
                 <p className="text-gray-200 text-center max-w-3xl">
                     Feel free to check my{" "}
