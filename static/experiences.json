@@ -6,11 +6,11 @@
             "role": "System Administrator",
             "dates": "2022 september -",
             "tasks": [
-                "Ubuntu server operations",
+                "Ubuntu Server operations (security)",
                 "Automation using Ansible and Python",
-                "Maintaining on-premise Kubernetes Clusters (k3s, k8s)",
+                "Maintaining on-premise (k3s, k8s) & EKS Kubernetes Clusters",
                 "Architecting AWS and cloud native technologies using Terraform and GitOps",
-                "Developing Gitlab CI/CD"
+                "Developing CI/CD using Gitlab and ArgoCD"
             ],
             "skills": [
                 "python.png",
