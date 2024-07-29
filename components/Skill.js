@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AnimateSharedLayout, LayoutGroup, motion } from "framer-motion";
+import { AnimateSharedLayout, LayoutGroup, m } from "framer-motion";
 
 const Skill = ({ img, number, name }) => {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -47,7 +47,7 @@ const Skill = ({ img, number, name }) => {
         // </div>
 
         <div className="group relative flex cursor-pointer" onClick={() => setIsExpanded(true)}>
-            <motion.img
+            <m.img
                 layoutId="expandable-img"
                 alt={"Skill image " + name}
                 className="rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out motion"

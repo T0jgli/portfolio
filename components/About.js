@@ -1,9 +1,9 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 const About = () => {
     return (
-        <motion.div
+        <m.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
@@ -44,7 +44,7 @@ const About = () => {
                     .
                 </p>
             </div>
-        </motion.div>
+        </m.div>
     );
 };
 

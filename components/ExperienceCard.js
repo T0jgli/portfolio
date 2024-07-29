@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 const ExperienceCard = ({ role, company, tasks, dates, img, skills }) => {
     return (
@@ -18,7 +18,7 @@ const ExperienceCard = ({ role, company, tasks, dates, img, skills }) => {
         opacity-80 transition-opacity duration-500 
         overflow-hidden relative flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#222222] p-10 card"
         >
-            <motion.img
+            <m.img
                 initial={{
                     y: -100,
                     opacity: 0,

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { LayoutGroup, motion } from "framer-motion";
+import { LayoutGroup, m } from "framer-motion";
 
 const Certificates = () => {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
         <>
-            <motion.div
+            <m.div
                 initial={{
                     opacity: 0,
                 }}
@@ -43,7 +43,7 @@ const Certificates = () => {
                         ></img>
                     </a>
                 </div>
-            </motion.div>
+            </m.div>
         </>
     );
 };

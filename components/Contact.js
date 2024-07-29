@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { HiMail, HiChevronUp } from "react-icons/hi";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { toast } from "react-toastify";
 
 function wait(delay) {
@@ -72,7 +72,7 @@ const Contact = () => {
 
     return (
         <>
-            <motion.div
+            <m.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
@@ -99,7 +99,7 @@ const Contact = () => {
                         Submit
                     </button>
                 </form>
-            </motion.div>
+            </m.div>
             <button
                 onClick={() => {
                     document.querySelector(`#hero`).scrollIntoView({

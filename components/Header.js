@@ -1,13 +1,13 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import Link from "next/link";
 
 const Header = () => {
     return (
         <header className="sticky headerbg top-0 z-20 overflow-hidden">
             <div className="flex items-start justify-between max-w-7xl mx-auto p-5 xl:items-center ">
-                <motion.div
+                <m.div
                     initial={{
                         x: -500,
                         opacity: 0,
@@ -44,8 +44,8 @@ const Header = () => {
                         aria-label="LinkedIn"
                         title="LinkedIn"
                     />
-                </motion.div>
-                <motion.div
+                </m.div>
+                <m.div
                     onClick={() => {
                         document.querySelector(`#contact`).scrollIntoView({
                             behavior: "smooth",
@@ -78,7 +78,7 @@ const Header = () => {
                         />
                         <p className="uppercase hidden md:inline-flex text-sm text-gray-300">Get In Touch</p>
                     </div>
-                </motion.div>
+                </m.div>
             </div>
         </header>
     );

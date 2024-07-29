@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { LayoutGroup, motion } from "framer-motion";
+import { LayoutGroup, m } from "framer-motion";
 import Skill from "./Skill";
 import SkillsJson from "../static/skills.json";
 
@@ -8,7 +8,7 @@ const Skills = () => {
 
     return (
         <>
-            <motion.div
+            <m.div
                 initial={{
                     opacity: 0,
                 }}
@@ -23,7 +23,7 @@ const Skills = () => {
                         <Skill img={e.img} key={e + i} number={e.number} name={e.name} />
                     ))}
                 </div>
-            </motion.div>
+            </m.div>
         </>
     );
 };

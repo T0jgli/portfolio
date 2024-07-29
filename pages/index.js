@@ -1,4 +1,4 @@
-import { AnimatePresence, LayoutGroup, motion } from "framer-motion";
+import { AnimatePresence, domAnimation, LayoutGroup, LazyMotion, motion } from "framer-motion";
 import { useCallback, useEffect, useState } from "react";
 import About from "../components/About";
 import Contact from "../components/Contact";
@@ -15,7 +15,7 @@ export default function Home() {
     useEffect(() => {}, []);
 
     return (
-        <>
+        <LazyMotion features={domAnimation}>
             <ToastContainer
                 position="bottom-center"
                 autoClose={5000}
@@ -56,6 +56,6 @@ export default function Home() {
                     <Contact />
                 </section>
             </div>
-        </>
+        </LazyMotion>
     );
 }
