@@ -50,7 +50,7 @@ const Skill = ({ img, number, name }) => {
             <motion.img
                 layoutId="expandable-img"
                 alt={"Skill image " + name}
-                className="rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
+                className="rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out motion"
                 src={`/imgs/skills/${img}`}
             />
             <div className="absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-white h-24 w-24 xl:w-32 xl:h-32 rounded-full z-0">

@@ -32,7 +32,7 @@ const ExperienceCard = ({ role, company, tasks, dates, img, skills }) => {
                 }}
                 viewport={{ once: true }}
                 src={`/imgs/${img}`}
-                className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
+                className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center motion"
                 alt={img + " company"}
             />
             <div className="px-0 md:px-10">

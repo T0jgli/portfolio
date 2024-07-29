@@ -29,6 +29,15 @@ class MyDocument extends Document {
                 <link rel="apple-touch-icon" href="/favicon.ico" />
                 <link rel="icon" type="image/png" href="/favicon.ico" />
                 <title>Adam Kovalik</title>
+                <noscript
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                    <style>
+                        .motion { opacity: 1 !important }
+                    </style>
+                    `,
+                    }}
+                />
                 <body>
                     <Main />
                     <NextScript />

@@ -22,7 +22,7 @@ const Header = () => {
                         duration: 1,
                         ease: [0.6, -0.05, 0.01, 0.99],
                     }}
-                    className="flexbox"
+                    className="flexbox motion"
                 >
                     <SocialIcon
                         rel="noopener norefereer"
@@ -65,7 +65,7 @@ const Header = () => {
                         duration: 1,
                         ease: [0.6, -0.05, 0.01, 0.99],
                     }}
-                    className="flexbox text-gray-300 cursor-pointer"
+                    className="flexbox text-gray-300 cursor-pointer motion"
                 >
                     <div className="flex items-center hover:opacity-70 duration-500">
                         <SocialIcon

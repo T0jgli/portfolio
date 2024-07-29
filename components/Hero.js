@@ -18,7 +18,7 @@ const Hero = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
                 src="/imgs/me.png"
-                className="relative rounded-full h-32 w-32 mx-auto object-cover"
+                className="relative rounded-full h-32 w-32 mx-auto object-cover motion"
                 alt="me"
             />
             <div className="z-20">
@@ -26,7 +26,7 @@ const Hero = () => {
                     initial={{ y: -100, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
-                    className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]"
+                    className="text-sm uppercase text-gray-500 pb-2 tracking-[15px] motion"
                 >
                     System Administrator
                 </motion.h2>
@@ -34,7 +34,7 @@ const Hero = () => {
                     initial={{ y: -100, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
-                    className="text-4xl lg:text-5xl font-semibold px-10"
+                    className="text-4xl lg:text-5xl font-semibold px-10 motion"
                 >
                     Hi! The Name&apos;s Adam Kovalik
                 </motion.h1>

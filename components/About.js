@@ -7,7 +7,7 @@ const About = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
-            className="h-screen pt-24 md:pt-0 flex relative overflow-hidden flex-col text-left max-w-full px-10 justify-evenly mx-auto items-center"
+            className="h-screen pt-24 md:pt-0 flex relative overflow-hidden flex-col text-left max-w-full px-10 justify-evenly mx-auto items-center motion"
         >
             <h3 className="uppercase tracking-[1rem] text-gray-500 xl:text-2xl md:text-xl text-lg">About</h3>
 
