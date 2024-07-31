@@ -45,7 +45,7 @@ const Certificates = () => {
                     <a
                         aria-label="AWS Certified Solutions Architect - Associate"
                         title="AWS Certified Solutions Architect - Associate"
-                        href="https://www.credly.com/badges/ceb26feb-7cde-41bb-9b97-a33da42e39ef/public_url"
+                        href="https://www.credly.com/badges/f2afb6e7-3d9a-45fd-a666-e8d1aecebbd6/public_url"
                         target="_blank"
                         rel="noopener norefereer"
                     >
