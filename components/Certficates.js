@@ -42,6 +42,19 @@ const Certificates = () => {
                             src="https://images.credly.com/size/340x340/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png"
                         ></img>
                     </a>
+                    <a
+                        aria-label="AWS Certified Solutions Architect - Associate"
+                        title="AWS Certified Solutions Architect - Associate"
+                        href="https://www.credly.com/badges/ceb26feb-7cde-41bb-9b97-a33da42e39ef/public_url"
+                        target="_blank"
+                        rel="noopener norefereer"
+                    >
+                        <img
+                            className="md:w-80 w-52 hover:opacity-90 duration-300"
+                            alt="AWS Certified Solutions Architect - Associate"
+                            src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+                        ></img>
+                    </a>
                 </div>
             </m.div>
         </>
