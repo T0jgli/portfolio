@@ -60,11 +60,7 @@ const Contact = () => {
             error: {
                 render({ data }) {
                     console.log(data);
-                    try {
-                        return data["error"];
-                    } catch (error) {
-                        return "An error happened, see on console";
-                    }
+                    return data?.["error"] || "An error happened, see on console";
                 },
             },
         });
