@@ -28,7 +28,7 @@ const Hero = () => {
                     transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
                     className="text-sm uppercase text-gray-500 pb-2 tracking-[15px] motion"
                 >
-                    System Administrator
+                    Devops Engineer
                 </m.h2>
                 <m.h1
                     initial={{ y: -100, opacity: 0 }}

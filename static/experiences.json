@@ -3,27 +3,24 @@
         {
             "company": "evosoft Hungary",
             "img": "evosoft.jfif",
+            "role": "DevOps Engineer",
+            "dates": "2024 february -",
+            "tasks": [],
+            "skills": "Linux / Ansible / Kubernetes / ArgoCD / Gitlab / Grafana - Prometheus / AWS / Terraform / Hashicorp Vault / Harbor"
+        },
+        {
+            "company": "evosoft Hungary",
+            "img": "evosoft.jfif",
             "role": "System Administrator",
             "dates": "2022 september -",
             "tasks": [
                 "Ubuntu Server operations (security)",
                 "Automation using Ansible and Python",
-                "Maintaining on-premise (k3s, k8s) & EKS Kubernetes Clusters",
+                "Maintaining on-premise (k3s, k8s, rke2) & EKS Kubernetes Clusters",
                 "Architecting AWS and cloud native technologies using Terraform and GitOps",
                 "Developing CI/CD using Gitlab and ArgoCD"
             ],
-            "skills": [
-                "python.png",
-                "react.png",
-                "linux.png",
-                "ansible.png",
-                "docker.png",
-                "kubernetes.png",
-                "grafana.png",
-                "git.jpg",
-                "aws.png",
-                "terraform.png"
-            ]
+            "skills": "Python / Linux / Ansible / Docker / Kubernetes / ArgoCD / Gitlab / Grafana - Prometheus / AWS / Terraform / ELK Stack / SAML - OIDC"
         },
         {
             "company": "evosoft Hungary",
@@ -31,7 +28,7 @@
             "role": "System Administrator Trainee",
             "dates": "2021 september - 2022 september",
             "tasks": [],
-            "skills": ["linux.png", "ansible.png", "postgresql.png", "git.jpg"]
+            "skills": ""
         },
         {
             "company": "Graphisoft SE",
@@ -39,7 +36,7 @@
             "role": "Software Developer Trainee",
             "dates": "2021 january - 2021 april",
             "tasks": ["Developing an enterprise JavaScript cloud application"],
-            "skills": ["javascript.png", "css.png", "react.png"]
+            "skills": "Node.JS / Unit testing"
         }
     ]
 }

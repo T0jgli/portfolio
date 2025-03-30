@@ -1,78 +1,88 @@
 {
     "skills": [
         {
-            "img": "python.png",
+            "img": "python.webp",
             "name": "Python",
             "number": "95%"
         },
         {
-            "img": "linux.png",
+            "img": "linux.webp",
             "name": "Linux",
             "number": "85%"
         },
         {
-            "img": "javascript.png",
+            "img": "javascript.webp",
             "name": "Javascript",
             "number": "90%"
         },
         {
-            "img": "css.png",
+            "img": "css.webp",
             "name": "CSS",
             "number": "90%"
         },
         {
-            "img": "react.png",
+            "img": "react.webp",
             "name": "React",
             "number": "90%"
         },
         {
-            "img": "next.png",
+            "img": "next.webp",
             "name": "Next.JS",
             "number": "90%"
         },
         {
-            "img": "git.jpg",
+            "img": "git.webp",
             "name": "Git",
             "number": "85%"
         },
         {
-            "img": "ansible.png",
+            "img": "ansible.webp",
             "name": "Ansible",
             "number": "75%"
         },
         {
-            "img": "postgresql.png",
+            "img": "postgresql.webp",
             "name": "PostgreSQL",
             "number": "80%"
         },
         {
-            "img": "docker.png",
+            "img": "docker.webp",
             "name": "Docker",
             "number": "90%"
         },
         {
-            "img": "kubernetes.png",
+            "img": "kubernetes.webp",
             "name": "Kubernetes",
             "number": "75%"
         },
         {
-            "img": "argo.jpg",
+            "img": "argo.webp",
             "name": "Argo CD",
             "number": "55%"
         },
         {
-            "img": "firebase.png",
+            "img": "firebase.webp",
             "name": "Firebase & Google Cloud",
             "number": "60%"
         },
         {
-            "img": "aws.png",
+            "img": "aws.webp",
             "name": "AWS",
             "number": "65%"
         },
         {
-            "img": "terraform.png",
+            "img": "terraform.webp",
             "name": "Terraform",
+            "number": "50%"
+        },
+        {
+            "img": "grafana.webp",
+            "name": "Grafana",
+            "number": "50%"
+        },
+        {
+            "img": "prometheus.webp",
+            "name": "Prometheus",
             "number": "50%"
         }
     ]

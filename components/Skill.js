@@ -55,11 +55,11 @@ const Skill = ({ img, number, name }) => {
             />
             <div className="absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-white h-24 w-24 xl:w-32 xl:h-32 rounded-full z-0">
                 <div className="flex flex-col space-y-1 items-center justify-center h-full">
-                    <p className="text-3xl font-bold text-black opacity-100">{number}</p>
+                    {/* <p className="text-3xl font-bold text-black opacity-100">{number}</p>
                     <div className="w-4/5 relative h-1.5 bg-gray-500 shadow-xl rounded-lg shadow-black">
                         <div className="bg-emerald-500 absolute top-0 h-1.5 rounded-lg" style={{ width: number }} />
-                    </div>
-                    <p className="text-xs text-center font-medium text-black opacity-100">{name}</p>
+                    </div> */}
+                    <p className="text-xl text-wrap break-words text-center font-medium text-black opacity-100">{name}</p>
                 </div>
             </div>
         </div>

@@ -39,14 +39,15 @@ const ExperienceCard = ({ role, company, tasks, dates, img, skills }) => {
                 <h4 className="text-2xl md:text-4xl font-light">{company}</h4>
                 <p className="font-bold text-xl md:text-2xl mt-2">{role}</p>
                 <div className="flex flex-wrap items-center gap-2 my-3">
-                    {skills.map((s, i) => (
+                    <p className="text-sm tracking-wider">{skills}</p>
+                    {/* {skills.map((s, i) => (
                         <img
                             alt={"Experience img " + i}
                             className="md:h-10 md:w-10 w-8 h-8 rounded-full object-cover"
                             key={s + i}
                             src={`/imgs/skills/${s}`}
                         />
-                    ))}
+                    ))} */}
                 </div>
                 <p className="uppercase md:text-base text-sm py-5 text-gray-300">{dates}</p>
 
